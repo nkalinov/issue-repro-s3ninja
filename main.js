@@ -1,6 +1,6 @@
 import {GetObjectCommand, S3Client} from '@aws-sdk/client-s3';
 
-const s3Client = new S3Client({endpoint: 'http://localhost:9000'});
+const s3Client = new S3Client({endpoint: 'http://localhost:9000', forcePathStyle: true});
 
 try {
     const {Body} = await s3Client.send(
