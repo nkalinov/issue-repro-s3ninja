@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "repository": "https://github.com/nkalinov/issue-repro-s3ninja.git",
-  "author": "Nikola Kalinov <nikola.kalinov@simonmarkets.com>",
+  "author": "Nikola Kalinov <kozzleto@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.303.0"
